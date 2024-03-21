@@ -20,3 +20,6 @@ while opcao_de_operacao != 5:
         print(f"{numero1} x {numero2} =", numero1 * numero2)
     elif opcao_de_operacao == 4:
         print(f"{numero1} / {numero2} =", numero1 / numero2)
+
+    if opcao_de_operacao > 5 or opcao_de_operacao < 0:
+        print("Selecione entre 1 e 5\n\n")
