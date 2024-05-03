@@ -1,3 +1,4 @@
+import time
 opcao_de_operacao = 0
 
 def operacao(opcao_de_operacao):
@@ -29,3 +30,4 @@ while opcao_de_operacao != 5:
     numero2 = int(input("Digite o segundo número para operação: "))
     
     operacao(opcao_de_operacao)
+    time.sleep(3.5)
